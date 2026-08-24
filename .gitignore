@@ -1,2 +1,6 @@
 .history/
 .history
+node_modules/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/

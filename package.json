@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "support/step_definitions/**/*.{js,ts}"
+    ]
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^26.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^15.21.0"
+  }
+}
